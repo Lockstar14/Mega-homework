@@ -1,0 +1,425 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+}
+
+.background {
+    background: url(../img/Маяк.png) no-repeat;
+}
+
+.wrapper {
+    width: 1676px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+header,p{
+    color: white;
+}
+
+.svgs:first-child {
+    margin-left: 120px;
+}
+
+
+.menu, a
+ {
+ 
+    margin-right: 45px;
+    color: white;
+}
+
+.burger-menu,
+.line {
+    height: 2px;
+    width: 30px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.open {
+    margin: 155px 0 0 120px;
+    width: 60%;
+}
+
+.open p {
+    font-family: Playfair Display;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 95px;
+    text-align: left;
+}
+
+.author-tours {
+    margin: 50px 0 0 120px;
+    width: 30%;
+
+
+}
+
+.author-tours p {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 45px;
+
+
+}
+
+.btn-video {
+    width: 40%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 120px;
+}
+
+.btn {
+    background-color: orange;
+    border-radius: 38px;
+    border: none;
+    padding: 25px 45px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black
+}
+
+.video {
+    width: 45%;
+    display: flex;
+    align-items: center;
+
+}
+
+.video-text {
+    width: 50%;
+    margin-left: 21px;
+}
+
+.video-text p {
+
+    color: #A1A8B6;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.social-media {
+    margin: 123px 0 137px 120px;
+    width: 11%;
+}
+
+.social-text p {
+   
+    width: 209px;
+    height: 23px;
+    left: 120px;
+    top: 816px;
+    
+    margin-right: 45px;
+    color: white;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 45px;
+    color: white;
+
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+
+.social-icons {
+    margin-top: 19px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+.second .container{
+ margin-left: 260px;
+    display: flex;
+  
+   
+   
+  
+}
+.second-image{
+    width: 830px;
+    
+    height: 475px;
+    background: url(../img/Горы.png) center no-repeat;
+    padding-right: 100px;
+    margin-right: 100px;
+}
+.second-text{
+    width: 448px;
+    
+}
+.look p{
+  
+    font-family: 'Playfair Display';
+font-weight: 700;
+font-size: 42px;
+line-height: 55px;
+color: black;
+}
+
+.second-about p{
+    font-family: 'Montserrat';
+font-weight: 400;
+font-size: 18px;
+line-height: 33px;
+color: black;
+text-align: left;
+margin-top: 30px;
+margin-bottom: 50px;
+}
+.second-btn .btn{
+       border: 2px;
+       border-style: solid;
+        background-color: orange;
+        border-radius: 38px;
+        border-color: orange;
+        padding: 25px 45px;
+        font-weight: 600;
+        font-size: 20px;
+        color: black;
+        }
+.background-third{
+    background: url(../img/ЭдвардНортон.png) center no-repeat;
+    width: 1920px;
+    height: 518px;
+}
+.third .container{
+    margin: 160px 255px 52px 895px;
+    padding-top: 133px;
+    display: flex;
+}
+.request p{
+    font-weight: 700;
+font-size: 42px;
+line-height: 55px;
+color: black;
+}
+.recall{
+    width: 202px;
+    height: 56px;
+    
+}
+.recall p{
+    
+    color: black;
+    width: 202px;
+    height: 56px;
+    left: 888px;
+    top: 2093px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+ 
+    
+    display: flex;
+    align-items: center;
+}
+
+input{
+    border-radius: 38px;
+    border: 2px solid #CED8DF;
+   
+width: 283px;
+height: 75px;
+left: 1375px;
+top: 2010px;
+}
+input::placeholder{
+ 
+padding: 25px 157px 26px 20px;
+    width: 106px;
+    height: 24px;
+    left: 1395px;
+    top: 1940px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    
+    color: #B7C3CC;
+}
+.small-text{
+    display: block;
+}
+.text{
+    margin-bottom: 20px;
+}
+.tel{
+    margin-bottom: 25px;
+}
+.small-text{
+    width: 250px;
+   
+}
+.small-text p{
+
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 18px;
+/* or 164% */
+
+
+color: black;
+}
+.small-text a{
+   
+height: 36px;
+left: 1405px;
+top: 2195px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 18px;
+
+
+text-decoration: none;
+color: #DD9428;
+}
+.review .container{
+width: 80%;
+height: 475px;
+margin: 195px 262px 160px 260px;
+display: flex;
+}
+.img-review{
+    background: url(../img/отзывы.png) center  no-repeat ;
+    width: 100%;
+   
+    border-radius: 16px;
+  
+}
+.what-write{
+    width: 468px;
+}
+.what-write p{
+    width: 468px;
+height: 101px;
+left: 260px;
+top: 2478px;
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 55px;
+    color: black;
+}
+.percents{
+    width: 448px;
+   
+}
+.percents p{
+    width: 448px;
+height: 132px;
+left: 260px;
+top: 2618px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 33px;
+    color: black;
+    text-align: left;
+}
+.third-btn .btn {
+    background-color: white;
+    border-radius: 38px;
+    border-style: solid;
+   
+    padding: 25px 45px;
+    font-weight: 600;
+    font-size: 20px;
+    color: orange
+}
+footer{
+    width: 100%;
+    background-color: #F8F8F8;
+    margin: 0;
+}
+footer .wrapper{
+    width: 90%;
+   
+   
+}
+.wrapper-mini{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.politic p{
+width: 163px;
+height: 40px;
+left: 403px;
+top: 3148px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: #90A4B2;
+}
+.confirmation p{
+    width: 195px;
+    height: 40px;
+    left: 689px;
+    top: 3148px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #90A4B2;
+
+}
+.wrapper-mini-two{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 95px;
+  
+}
+footer .social-icons{
+ width: 20%;
+}
