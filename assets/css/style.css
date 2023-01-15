@@ -30,11 +30,12 @@ header,p{
 }
 
 
-.menu, a
+.menu a
  {
  
     margin-right: 45px;
     color: white;
+    text-decoration: none;
 }
 
 .burger-menu,
@@ -268,9 +269,7 @@ padding: 25px 157px 26px 20px;
     
     color: #B7C3CC;
 }
-.small-text{
-    display: block;
-}
+
 .text{
     margin-bottom: 20px;
 }
@@ -279,6 +278,7 @@ padding: 25px 157px 26px 20px;
 }
 .small-text{
     width: 250px;
+    margin-left: 20px;
    
 }
 .small-text p{
@@ -366,7 +366,7 @@ line-height: 33px;
     padding: 25px 45px;
     font-weight: 600;
     font-size: 20px;
-    color: orange
+    color: orange;
 }
 footer{
     width: 100%;
